@@ -42,8 +42,23 @@ class content:
 ques_lst=[]
 content1=content('What is 5*5 ?','A: 15','B: 20','C: 25','D: 30','C')
 content2=content('What is 5*4 ?','A: 15','B: 20','C: 25','D: 30','B')
+content3=content('Gió nào được gọi là gió bão?','A: Cấp 2','B: Cấp 3','C: Cấp 5','D: Cấp 9','D')
+content4=content('Để viết số, người ta sử dụng bao nhiêu chữ số tự nhiên?','A: 8 chữ số','B: 9 chữ số','C: 10 chữ số','D: 11 chữ số','C')
+content5=content('Người mẹ trong bài : “Khúc hát ru những em bé ngủ tên lưng mẹ” làm những công việc gì?','A: Nuôi con','B: Giã gạo nuôi bộ đội','C: Trả bắp trên nương','D: Cả ba phương án trên','D')
+content6=content('Trong các từ ghép sau từ nào có nghĩa tổng hợp?','A: Xe cộ','B: Xe đạp','C: Xe máy','D: Xe điện','A')
+content7=content(' Âm thanh lan truyền qua những đâu?','A: Không khí','B: Chất rắn','C: Chất lỏng','D: Tất cả các ý trên','D')
+content8=content('Cho câu sau : “Bạn có đi học không”. Câu trên thuộc loại câu gì ?','A: Câu cầu khiến','B: Câu kể','C: Câu cảm','D: Câu hỏi','D')
+content9=content(' Nước Đại Việt thời Lý (1009 – 1226) Ai là người dời đô ra thăng long.','A: Lý Thái Tông','B: Lý Thái Tổ','C: Lý Nhân Tông','D: Lý Thánh Tông','B')
 ques_lst.append(content1)
 ques_lst.append(content2)
+ques_lst.append(content3)
+ques_lst.append(content4)
+ques_lst.append(content5)
+ques_lst.append(content6)
+ques_lst.append(content7)
+ques_lst.append(content9)
+ques_lst.append(content8)
+
 ques_index=0
 
         
